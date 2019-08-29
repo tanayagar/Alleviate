@@ -1,6 +1,6 @@
 # Alleviate
 
-Health Services Platform using NLTK and Deep Neural Network
+Health Services Platform using NLTK and Deep Neural Network.
 
 # Description
 A Chat Bot which uses Deep Neural Networks and NLTK to answer any health-related queries. Also uses Sentiment Analysis from Google Natural Language API and Places API to mine Hospital reviews and provide suggestions accordingly.
