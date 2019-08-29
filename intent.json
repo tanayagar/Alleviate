@@ -1,0 +1,51 @@
+{
+"intents":[
+        {
+        "tag": "greeting",
+        "patterns": ["Hi","How are you","Is anyone there?","Hello","Good day","Hey"],
+        "responses":["Hello,thanks for visiting","Good to see you again","Hi there, how can I help?"],
+        "context_set": ""
+        },
+        {
+        "tag": "goodbye",
+        "patterns":["Bye","See you later", "Goodbye"],
+        "responses":["See you later, stay healthy","Have a healthy day","Bye! Health is wealth."]
+        },
+        {
+        "tag":"thanks",
+        "patterns":["Thanks","Thank you","That's helpful"],
+        "responses":["Happy to help!","Any time!","My pleasure"]
+        },
+        {
+        "tag":"yes",
+        "patterns":["Yes","Please","That would be great"],
+        "responses":[""]
+        },
+        {
+        "tag":"introduce",
+        "patterns":["What are you?","Tell me about yourslef","What is your name?"],
+        "responses":["I am BAMU","BAMU is my name, to help you is my game","BAMU at your service"]
+        },
+        {
+        "tag":"maker",
+        "patterns":["Who made you?","Who is your daddy?","Who are your makers?","Who thought about you?"],
+        "responses":["I was coded by Vasi, Tanay and Piyush","Vasi, Tanay and Piyush are the GODFATHERS"]
+        },
+        {
+        "tag":"info",
+        "patterns":["My name is Piyush, I live in Hisar","Piyush, 18 years old, live in Delhi","Piyush, 18 year old","My name is Piyush","18 years old","From Chennai","My name is Piyush and I lives in Delhi. My phone no. 9992014705. My email is piyushbamel1@gmail.com","My name is Piyush and I lives in Delhi","My name is Piyush and I lives in Delhi. My phone no. 9992014705.","My email is piyushbamel1@gmail.com"],
+        "responses":[""]
+        },
+        {
+        "tag":"help",
+        "patterns":["Can you help me?","I feel bad","I feel sick","I am hurt","I am curious","Save me","Diagnose me","Heal me","Treat me"],
+        "responses":["Tell me more about your condition.","I need more information. So explain your condition"]
+        },
+        {
+        "tag":"no",
+        "patterns":["No","Nah","No need","Don't need you","Go away","Be quiet"],
+        "responses":["Okay, tell me when you need me.","Anything else?"]
+        }
+
+]
+}
