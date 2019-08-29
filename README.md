@@ -10,7 +10,7 @@ A Chat Bot which uses Deep Neural Networks and NLTK to answer any health-related
     > ```python diaa.py```
 2. **Review Mining**: Using Google Places API, the reviews of all the places tagged "hospitals" in a particular geo-location are extracted. Sentiment Analysis is applied on recent hospital reviews. The user rating are ignored and only the reviews are considered to get the current response of people towards the place. The reviews and sentiment analysis data for 3 cities is stored in the _csv_ files.
     > ```python scrp.py```
-3. **Query Diagnosis**: The user's query is chunked and passed to the Infermedia API to generate follow-up questions and disease prediction. After a set of questions is asked, a prognosis is given along with a list of top rated hospitals.
+3. **Query Diagnosis**: The user's query is chunked and passed to the Infermedica API to generate follow-up questions and disease prediction. After a set of questions is asked, a prognosis is given along with a list of top rated hospitals.
 4. **Chat Bot** : Chatbot used for Alleviate is task-oriented and intension based. In chatbot framework,conversational intents are defined that would be useful for defining set of actions bot can manage.
 
 ## Demo
@@ -30,6 +30,6 @@ The screenshots given below do not include the API output printed between querie
 ![Follow up](https://i.imgur.com/zN9zbAt.png)
 
 ## Libraries/Frameworks/APIs Used:
-- [Infermedia API](https://developer.infermedica.com/)
+- [Infermedica API](https://developer.infermedica.com/)
 - [GCP Natural Language API](https://cloud.google.com/natural-language/)
 - [NLTK](https://www.nltk.org/)
