@@ -33,3 +33,9 @@ The screenshots given below do not include the API output printed between querie
 - [Infermedica API](https://developer.infermedica.com/)
 - [GCP Natural Language API](https://cloud.google.com/natural-language/)
 - [NLTK](https://www.nltk.org/)
+
+## Project Contributors
+This project was done during my CSE4022 - Natural Language Processing by a team of three people
+- [Tanay Agarwal](https://github.com/tanayagar/)
+- [Vashisht Marhwal](https://github.com/vashishtmarhwal/)
+- [Piyush Bamel](https://github.com/hydraplace)
